@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+*.db
+.env*
+.Python
+.mypy_cache/
+.pytest_cache/
+*.pkl
+*.ipynb_checkpoints/
+
+# ETL outputs (optional)
+etl/output/
+etl/tmp/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VSCode settings (optional)
+.vscode/
+
+# Node (React frontend)
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.swp
